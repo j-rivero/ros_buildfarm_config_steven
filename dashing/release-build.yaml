@@ -12,7 +12,7 @@ jenkins_source_job_priority: 76
 jenkins_source_job_timeout: 30
 notifications:
   emails:
-  - steven+build.ros2.org@openrobotics.org
+  - jrivero+build.ros2.org@openrobotics.org
   - ros2-buildfarm-dashing@googlegroups.com
   maintainers: true
 sync:
