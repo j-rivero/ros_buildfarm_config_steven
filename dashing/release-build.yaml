@@ -84,6 +84,8 @@ repositories:
   urls:
   - http://repo.ros2.org/ubuntu/building
   - http://repositories.ros.org/ubuntu/main
+repository_whitelist:
+  - rclcpp
 target_repository: http://repo.ros2.org/ubuntu/building
 targets:
   ubuntu:
