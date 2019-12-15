@@ -92,5 +92,7 @@ test_commits:
   default: true
 test_pull_requests:
   default: false
+test_abi:
+  default: true
 type: source-build
 version: 2
