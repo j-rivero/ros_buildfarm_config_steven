@@ -2,6 +2,14 @@
 # ROS buildfarm index file
 ---
 distributions:
+  eloquent:
+     ci_builds: {}
+     doc_builds: {}
+     notification_emails:
+      - jrivero+18.206.154.49@openrobotics.org
+     release_builds: {}
+     source_builds:
+      default: dashing/source-build.yaml
   dashing:
     ci_builds:
       nightly-connext: dashing/ci-nightly-connext.yaml
